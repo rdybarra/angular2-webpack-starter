@@ -2,8 +2,8 @@
   "name": "angular2-starter",
   "version": "0.1.0",
   "scripts": {
-    "start": "npm run lite",
-    "lite": "lite-server",
+    "start": "lite-server & webpack --watch",
+    "build": "webpack",
     "postinstall": "typings install"
   },
   "license": "ISC",
