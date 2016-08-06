@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "lite-server": "^2.2.0",
+    "sass-loader": "^4.0.0",
     "ts-loader": "^0.8.1",
     "typescript": "^1.8.10",
     "typings": "^1.0.4",

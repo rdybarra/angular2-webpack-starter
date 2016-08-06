@@ -31,7 +31,12 @@ module.exports = {
       loaders: [
         {
           test: /\.ts$/,
-          loaders: ['ts-loader',],
+          loaders: ['ts-loader'],
+          exclude: [/node_modules/]
+        },
+        {
+          test: /\.scss$/,
+          loaders: ['raw-loader', 'sass-loader'],
           exclude: [/node_modules/]
         }
       ],
