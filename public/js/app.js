@@ -49370,8 +49370,8 @@
 	    AppComponent = __decorate([
 	        core_1.Component({
 	            selector: 'my-app',
-	            template: '<h1>My First Angular 2 App</h1>',
-	            styles: [__webpack_require__(330)]
+	            template: __webpack_require__(330),
+	            styles: [__webpack_require__(331)]
 	        }), 
 	        __metadata('design:paramtypes', [])
 	    ], AppComponent);
@@ -49384,7 +49384,13 @@
 /* 330 */
 /***/ function(module, exports) {
 
-	module.exports = "h1 {\n  color: pink; }\n"
+	module.exports = "<h1>My First Angular 2 App!!!</h1>"
+
+/***/ },
+/* 331 */
+/***/ function(module, exports) {
+
+	module.exports = "h1 {\n  color: green; }\n"
 
 /***/ }
 /******/ ]);

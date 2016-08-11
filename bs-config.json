@@ -1,5 +1,0 @@
-{
-    "files" : "./public/js/*.js",
-    "server" : { "baseDir" : "./public" },
-    "injectChanges" : true
-}
